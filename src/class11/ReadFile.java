@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author shahzad masud
+ * @author shahzad
  */
 public class ReadFile {
 
