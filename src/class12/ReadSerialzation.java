@@ -41,5 +41,8 @@ public class ReadSerialzation {
                 }
             }
         }
+        
+        // GSon = https://code.google.com/p/google-gson/
+        // Jackson = http://jackson.codehaus.org
     }
 }

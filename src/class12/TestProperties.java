@@ -13,16 +13,15 @@ import java.util.Properties;
  */
 public class TestProperties {
 
-    public static void main ( String[] args ) {
-        Properties prop = System.getProperties() ;
-        prop.setProperty("outputfilename", "c:/abc.txt") ;
+    public static void main(String[] args) {
+        Properties prop = System.getProperties();
+        prop.setProperty("outputfilename", "c:/abc.txt");
         prop.list(System.out);
-        
-        System.out.println(prop.getProperty("outputfilename")) ;
-        
+
+        System.out.println(prop.getProperty("outputfilename"));
+
         // java TestProperties test 123 = Command Line Argument
         // java TestProperties -Dtest=123 = Command line Properties
     }
-    
-    
+
 }
